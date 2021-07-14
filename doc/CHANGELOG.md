@@ -6,6 +6,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Support building, testing and running with Java 16 [#287](https://github.com/itsallcode/openfasttrace/issues/287) / [#288](https://github.com/itsallcode/openfasttrace/issues/288)
+
+## [3.2.1] - 2021-07-13
+
+### Upgrade dependencies:
+- Test dependencies
+  - [JUnit](https://github.com/itsallcode/openfasttrace/pull/275)
+  - [mockito-junit-jupiter](https://github.com/itsallcode/openfasttrace/pull/284)
+  - [equalsverifier](https://github.com/itsallcode/openfasttrace/pull/285)
+- Build dependencies
+  - [license-maven-plugin](https://github.com/itsallcode/openfasttrace/pull/276)
+  - [flatten-maven-plugin](https://github.com/itsallcode/openfasttrace/pull/278)
+  - [maven-javadoc-plugin](https://github.com/itsallcode/openfasttrace/pull/279)
+  - [plantuml](https://github.com/itsallcode/openfasttrace/pull/81)
+  - [pitest-maven](https://github.com/itsallcode/openfasttrace/pull/282)
+  - [maven-deploy-plugin](https://github.com/itsallcode/openfasttrace/pull/283)
+
 ## [3.2.0] - 2021-05-30
 
 ### Added
